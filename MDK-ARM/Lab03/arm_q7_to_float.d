@@ -1,0 +1,9 @@
+lab03\arm_q7_to_float.o: ../Drivers/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_float.c
+lab03\arm_q7_to_float.o: ../Drivers/CMSIS/DSP/Include/arm_math.h
+lab03\arm_q7_to_float.o: ../Drivers/CMSIS/Include/core_cm7.h
+lab03\arm_q7_to_float.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+lab03\arm_q7_to_float.o: ../Drivers/CMSIS/Include/cmsis_version.h
+lab03\arm_q7_to_float.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+lab03\arm_q7_to_float.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+lab03\arm_q7_to_float.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+lab03\arm_q7_to_float.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
