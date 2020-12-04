@@ -1,13 +1,20 @@
 #  AI handwriting recognition based on STM32f746g-DISCOVERY
 ## Introduction
-  ![](https://i.imgur.com/O3oZoqj.png)
+### Execution screen
+  ![](https://i.imgur.com/VSSX30U.png)
+### CNN Number recognition
+  ![](https://i.imgur.com/NV1jVWT.png)
+### AI Model
+  ![](https://i.imgur.com/oJ51dYU.png)
+### X-cube-AI core engine
+  ![](https://i.imgur.com/TOYdGaD.png)
 ## Functions
-1. Read the digital microphone signal and display the signal on the horizontal axis of the screen:Between 0~130.
-2. Digital microphone sampling frequency setting 8kHz.
-3. FFT the digital microphone signal and display it on the horizontal axis of the screen:Between 140~270.
-4. The frequency display range is 0~4kHz.
-5. When you touch the microphone signal axis screen, you can start or stop reading Microphone signal.
-6. When the FFT frequency axis screen is touched by hand, the frequency number is displayed in the upper right corner Value and power.
+1. The initial screen shows two boxes on the left and right, the left is the handwriting board, the right
+For buttons and results.
+2. When you don’t write something on the tablet, there will be no response when you click the right button
+The handwriting board partly shows touch traces.   
+3. After writing in the handwriting board, click inside the right frame to perform AI judgment and The result is displayed in the right frame, and the font is Font57.
+4. When the right button is pressed again, the screen is cleared and returns to the initial screen.
 ## Video
   [![AI handwriting recognition based on STM32f746g-DISCOVERY](https://i.imgur.com/tYNr3MY.jpg)](https://youtu.be/0QSbi8sorVI)
 ## Environment
